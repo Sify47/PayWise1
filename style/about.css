@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    display: block;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.626);
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+/* Start Nav */
+.Logo {
+    width: 182px;
+    height: 47px;
+    left: 158px;
+    top: 7px;
+    position: relative
+}
+
+.Paywise {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word
+}
+
+.Group1 {
+    width: 35.98px;
+    height: 35.98px;
+    position: relative;
+    background-image: url(/image/fad_logo-juce.png);
+    background-repeat: no-repeat;
+    top: 6px;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.Services {
+    text-align: center;
+    width: 610px;
+    position: relative;
+    left: 47rem;
+    top: -36px;
+}
+
+.nav-underline {
+    color: white;
+}
+
+nav ul li {
+    margin-right: 60px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+/* End Nav */
+.Subscribe {
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 31.80px;
+    word-wrap: break-word;
+}
+
+.Submitting {
+    width: 425px;
+    left: 6px;
+    top: 260px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18.55px;
+    word-wrap: break-word;
+}
+
+.email {
+    height: 60px;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+    border: none;
+    position: relative;
+    padding: 10px;
+    width: 204px;
+}
+
+.subm {
+    width: 70px;
+    height: 60px;
+    background-color: #DAD873;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid;
+    background: none;
+}
+/* -------------start body -------------
+ */
+.maine-site {
+    position: relative;
+    min-height: 50vh;
+}
+
+.bgc {
+    background-color: hsl(0, 0%, 0% .8);
+
+
+}
+
+.bg-color {
+    background-image: url(/image/head2.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    /* background-color: #000; */
+}
+
+
+.card-body {
+    box-shadow: #000 0px 3px 30px;
+
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card a {
+    background-color: #ffffff;
+    color: black;
+    border: 0;
+    border-radius: 0;
+
+}
+
+.card a:hover {
+    background-color: rgb(231, 231, 231);
+    color: #FFC962;
+}
+
+#btn1 {
+    margin-top: 3rem;
+    padding: 15px 25px;
+
+}
+
+#btn2 {
+    margin-top: 6rem;
+    padding: 15px 25px;
+}
+
+#btn3 {
+    margin-top: 25px;
+    padding: 15px 25px;
+}
+
+.hor {
+
+    padding: 2rem;
+}
+
+.raw {
+    display: block;
+}
+
+.col {
+    flex: 1 0 0%;
+    display: flex;
+}
+
+.sec-bot-pics {
+    background-color: whitesmoke;
+}
+
+.right-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.left-box {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+div .right-img {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 50%;
+    height: 600px;
+
+}
+
+div .left-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 600px;
+    position: relative;
+    /* float: right; */
+
+}
+
+.text-top div {
+    width: 500px;
+    position: relative;
+
+}
+
+.text-bot div {
+    width: 500px;
+    padding: 40px;
+
+}
+
+div .text-top {
+
+    width: 690px;
+    display: block;
+    justify-content: left;
+    text-align: justify;
+    width: 50%;
+    height: 50%;
+    padding: 10rem;
+}
+
+div .text-bot {
+
+    position: relative;
+    width: 50%;
+    height: 50%;
+    display: block;
+    justify-content: left;
+    padding: 1% 15%;
+
+}
+
+.right-box a {
+    text-decoration: none;
+    color: #696154;
+    background-color: #FFC962;
+    padding: 10px 20px;
+}
+
+.right-box a:hover {
+    background-color: #a5792c;
+    color: aliceblue;
+}
+
+.left-box a {
+    text-decoration: none;
+    color: #696154;
+    background-color: #FFC962;
+    padding: 10px 20px;
+
+}
+
+.left-box a:hover {
+    background-color: #a5792c;
+    color: aliceblue;
+}
+
+/* -------------End Body-------------*/
+/* -------- Start footer-------- */
+.bot-hor {
+    box-shadow: #000 0px 3px 30px;
+
+    background-color: #255c8d;
+    width: 100%;
+    height: 5rem;
+    padding: 0px 2rem 0px 0px;
+}
+
+.bot-hor h5 {
+    color: aliceblue;
+    margin: 1.6rem 1rem;
+    display: flex;
+    position: absolute;
+    right: 25%;
+    padding: 0px 10px;
+}
+
+.bot-hor a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+}
+
+#facebook {
+    margin-right: 10rem;
+}
+
+.row-footer {
+    background-color: whitesmoke;
+    padding-top: 3.125rem;
+    padding-bottom: 2.1875rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+.col-b {
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    text-align: left;
+    margin: 0px 3rem;
+}
+
+.col-b ul {
+    list-style: none;
+
+}
+
+.col-b a {
+    color: #173856;
+    text-decoration: none;
+}
